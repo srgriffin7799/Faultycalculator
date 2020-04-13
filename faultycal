@@ -1,0 +1,25 @@
+num1= int(input("Enter first number :"))
+num2= int(input("Enter Second number :"))
+operator=input("Enter operator (%, /, *, +, -) :")
+if(operator== '*'):
+    if(num1==45 and num2==3):
+        print("45 * 3 = 555")
+    else:
+        print(num1, "*", num2, "=", num1 * num2)
+elif(operator== '+'):
+    if(num1==77 and num2==9):
+        print("77 + 9 = 81")
+    else:
+        print(num1, "+", num2, "=", num1 + num2)
+elif(operator== '/'):
+    if(num1==56 and num2==4):
+        print("56 / 4 = 2")
+    else:
+        print(num1, "/", num2, "=", num1 / num2)
+elif(operator== '-'):
+    print(num1, "-", num2, "=", num1 - num2)
+elif(operator== '%'):
+    print(num1, "%", num2, '=', num1 % num2)
+else:
+    print("Error:Invalid Input")
+
